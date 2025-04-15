@@ -1,0 +1,16 @@
+# =================================================================================
+# Example *terraform.tfvars*
+# ---------------------------------------------------------------------------------
+# aws_region              = "us-east-1"
+# vpc_id                  = "<Copy the VPC ID you need to link with Cloudera privatelink>"
+# subnet_ids              = [
+#   "<Private Subnet 1>",
+#   "<Private Subnet 2>"
+# ]
+# private_link_json_path  = "${path.module}/private_link.json"
+#
+# custom_tags = {
+#   Environment = "dev"
+#   Owner       = "data-platform-team"
+# }
+# =================================================================================
